@@ -1,0 +1,29 @@
+\documentclass{article}
+\usepackage{tikz} 
+
+
+\begin{document}
+
+\begin{tikzpicture}
+  \draw[->] (-5,0) -- (5,0) node[right] {$x$};
+  \draw[->] (0,-10) -- (0,10) node[above] {$f(x)$};
+
+  \draw[color=yellow,domain=-pi/2+0.1:pi/2-0.1]   plot (\x,{tan(\x r)})    node[above] {$f(x) = \tan x$};
+  \draw[color=green,domain=pi/2+0.1:3*pi/2-0.1]   plot (\x,{tan(\x r)})    node[above] {$f(x) = \tan x$};
+  \draw[color=red,domain=-3*pi/2+0.1:-pi/2-0.1]   plot (\x,{tan(\x r)})    node[above] {$f(x) = \tan x$};
+  \draw (-3*pi/2,0) node[below=2pt,fill=white] {$-\frac{3\pi}{2}$};
+  \draw (-pi/2,0) node[below=2pt,fill=white] {$-\frac{\pi}{2}$};
+  \draw (0,0) node[below=2pt,fill=white] {$0$};
+  \draw (3*pi/2,0) node[below=2pt,fill=white] {$\frac{3\pi}{2}$};
+  \draw (pi/2,0) node[below=2pt,fill=white] {$\frac{\pi}{2}$};
+  \draw (-pi,0) node[below=2pt,fill=white] {$-\pi$};
+  \draw (pi,0) node[below=2pt,fill=white] {$\pi$};
+  \draw[dashed, black] (pi/2,10)--(pi/2,-10);
+  \draw[dashed, black] (-pi/2,10)--(-pi/2,-10);
+  \draw[dashed, black] (-3*pi/2,10)--(-3*pi/2,-10);
+  \draw[dashed, black] (3*pi/2,10)--(3*pi/2,-10);
+
+\end{tikzpicture}
+
+
+\end{document}
