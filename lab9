@@ -1,0 +1,38 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{imakeidx}
+
+\begin{document}
+
+\section{Easy}
+
+\text{Please type me! The quick brown fox jumps over the lazy dog.} \quad \text{(1)}
+\[ e^{i\pi} + 1 = 0 \] 
+\quad \text{(2)}
+\[ e^{i\theta} = \cos(\theta) + i\sin(\theta) \] \quad \text{(3)}
+
+\[ G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4}T_{\mu\nu} \] \quad \text{(4)}
+
+\[ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \]  \quad \text{(5)}
+
+\[ \vec{L} = \vec{r} \times \vec{p} \] \quad \text{(6)}
+
+\[ \sqrt[3]{2} \] \quad \text{(7)}
+
+\[ (x+y)^n = \sum_{r=0}^n {n \choose r} x^r y^{n-r} \quad \text{(1)} \] \quad \text{(8)}
+
+\[ \sqrt{\frac{a_1^2 + \cdots + a_n^2}{n}} \geq 
+\frac{a_1 + \cdots + a_n}{n} \geq 
+\sqrt[n]{a_1 \cdots a_n} \geq 
+\frac{n}{\frac{1}{a_1} +  \cdots + \frac{1}{a_n}} \] \quad \text{(9)}
+
+\[ |\langle x, y \rangle|^2 \leq \langle x, x \rangle \cdot \langle y, y \rangle \] \quad \text{(10)}
+
+\[ A_1: \varphi \rightarrow (\psi \rightarrow \varphi) \] 
+
+\[ A_2:  (\varphi \rightarrow (\psi \rightarrow \theta)) \rightarrow ((\varphi \rightarrow \psi) \rightarrow (\varphi \rightarrow \theta)) \] 
+
+\[ A_3:  (\neg \varphi \rightarrow \neg \psi) \rightarrow (\psi \rightarrow \varphi) \]  \quad \text{(11)}
+
+
+\end{document}
